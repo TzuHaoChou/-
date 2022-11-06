@@ -1,0 +1,107 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  flex: 1;
+  /* background-color: red; */
+  padding-bottom: 170rpx;
+}
+.top .top-item{
+  padding: 20rpx;
+  border-bottom:1rpx solid #eee;
+  position: relative;
+}
+.top .title{
+  color: #333;
+}
+ .specifications{
+  color : #777;
+  font-size: 26rpx;
+  padding: 10rpx 0;
+}
+.price{
+color: #febe1b;
+padding-bottom:20rpx;
+}
+.device{
+  display: flex;
+  position: absolute;
+  right : 10rpx;
+  top : 130rpx;
+}
+.button{
+  width: 60rpx;
+  height: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.Reduction{
+  border:1rpx solid #FEBE1B;
+  background-color: #fff;
+  color : #FEBE1B;
+}
+.add{
+  background-color: #FEBE1B;
+  color : #fff;
+}
+input{
+  width: 160rpx;
+  box-sizing: border-box;
+  height : 60rpx;
+  border:1rpx solid #FEBE1B;
+  border-radius: 50rpx;
+  margin: 0 10rpx;
+  text-align: center;
+  line-height: 50rpx;
+}
+
+.bottom {
+  display: flex;
+  height: 170rpx;
+  flex-direction: column;
+  box-shadow: 0 2px 2px 2px #ccc;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.bottom .total {
+  height: 70rpx;
+  background-color: #fff;
+  line-height: 70rpx;
+  font-size: 28rpx;
+}
+
+.bottom .total text {
+  color: #ff8f46;
+  margin-left: 15rpx;
+}
+
+.lows {
+  flex : 1;
+  display: flex;
+}
+.lows view{
+  flex : 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.lows .left {
+  text-align: center;
+  background-color: #febe1b;
+}
+
+.lows .reight {
+  text-align: center;
+  background-color: #ff6600;
+}

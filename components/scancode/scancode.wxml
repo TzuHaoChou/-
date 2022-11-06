@@ -1,0 +1,4 @@
+<view class="scan" bindtap="scancode">
+  <image src="/assets/images/qrcode.png" mode="widthFix"></image>
+  <text>请扫描商品条形码</text>
+  </view>

@@ -1,0 +1,31 @@
+<view class="box">
+<view class="top">
+<view class="top-item" wx:for="{{cartList}}" wx:key="index">
+  <!-- <adddcls :item="{{cartList}}"></adddcls> -->
+  <view class="title">
+    {{item.title}}
+</view >
+<view class="specifications">
+规格：500ml/瓶
+</view>
+<view class="price">
+  <text>¥{{item.price}}</text>
+</view>
+<view class="device">
+<view class="Reduction button" data-index="{{index}}" bindtap="Reduction">-</view>
+<input type="text" value="{{item.num}}"  name="" id=""/>
+<view class="add button"  data-index="{{index}}" bindtap="addclss">+</view>
+</view>
+</view>
+</view>
+
+<view class="bottom">
+<view class="total">总计：
+<text>￥{{totalPrice}}</text>
+</view>
+<view class="lows">
+<view class="left" bindtap="Continue">继续添加</view>
+<view class="reight" bindtap="toorder">  去结算 <text>({{cartList.length}})</text> </view>
+</view>
+</view>
+</view>

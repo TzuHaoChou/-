@@ -1,0 +1,8 @@
+<view class="box">
+  <view class="imges">
+    <i-swiper imaglist="{{imaglist}}"></i-swiper>
+  </view>
+  <view class="mian">
+    <scancode bindscanCode="scanCode"></scancode>
+  </view>
+</view>

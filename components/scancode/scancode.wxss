@@ -1,0 +1,26 @@
+
+.scan{
+  margin: 0 auto;
+  width: 290rpx;
+  height: 290rpx;
+  background-color: #FEBE1B;
+  border-radius: 50%;
+  margin-top: 100rpx;
+  border:20rpx solid #FFE49B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.scan image{
+  margin-top: 10px;
+  width: 160rpx;
+  height: 120rpx;
+}
+.scan text{
+  color : #fff;
+  display: block;
+  width: 174rpx;
+  text-align: center;
+  font-size: 14px;
+}

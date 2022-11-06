@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "i-swiper":"/components/i-swiper/i-swiper",
+    "scancode":"/components/scancode/scancode"
+  }
+}
